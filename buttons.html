@@ -2,6 +2,19 @@
     SUBSCRIBE
 </button>
 
+<button class="join-button">
+    JOIN
+</button>
+
+<button class="tweet-button">
+    TWEET
+</button>
+
+<button class="Join_My_channel-button">
+    Join My channel 
+</button>
+<!--we use class = falana-button so we can change the settings of each button as one needs.-->
+
 <style>
     .subscribe-button{
         background-color: rgb(206, 2, 2);
@@ -12,14 +25,18 @@
         width: 105px;
         cursor: pointer;
         margin-right: 8px;
+        transition: opacity 0.15s;
+        vertical-align: top;
     }
-</style>
 
-<button class="join-button">
-    JOIN
-</button>
+    .subscribe-button:hover{
+        opacity: 0.8;
+    }
 
-<style>
+    .subscribe-button:active{
+        opacity:0.6;
+    }
+
     .join-button{
         background-color:white;
         border-color:rgb(52, 87, 241);
@@ -30,14 +47,17 @@
         height:34px;
         width:62px;
         cursor:pointer;
+        transition: background-color 0.15s, color 0.15s;
+        vertical-align:top;
     }
-</style>
+    .join-button:hover{
+        background-color:rgb(52, 87, 241);
+        color:white;
+    }
+    .join-button:active{
+        opacity:0.6;
+    }
 
-<button class="tweet-button">
-    TWEET
-</button>
-
-<style>
     .tweet-button{
         background-color:blue;
         color:white;
@@ -49,7 +69,37 @@
         font-weight:bold;
         cursor:pointer;
         margin-left:8px;
+        transition: box-shadow 0.15s;
+        vertical-align:top;
     }
+
+    .tweet-button:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    }
+
+    .Join_My_channel-button{
+         background-color:white;
+        border-color:rgb(52, 87, 241);
+        color: rgb(52, 87, 241);
+        border-style:solid;
+        border-width: 1px;
+        border-radius: 2px;
+        padding-left:16px;
+        padding-right:16px;
+        padding-bottom:9px;
+        padding-top: 9px;
+        cursor:pointer;
+        transition: background-color 0.15s, color 0.15s;
+       
+    }
+    .Join_My_channel-button:hover{
+        background-color:rgb(52, 87, 241);
+        color:white;
+    }
+    .Join_My_channel-button:active{
+        opacity:0.6;
+    }
+<!-- padding is better than margin cause it sets the space from inside so your input will never go out of button-->
 </style>
 
 
