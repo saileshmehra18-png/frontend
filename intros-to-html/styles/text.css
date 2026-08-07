@@ -1,6 +1,5 @@
-<style>
-    p {
-        font-family:arial;
+  p {
+        font-family:Roboto;
         margin:0px;
         margin-bottom:0px;
     }
@@ -8,14 +7,12 @@
         font-style: italic;
         font-size: 18px;
         font-weight: bold;
-        font-family: Arial;
         width: 280px;
         line-height: 24px;
         margin-bottom: 5px;
     }
 
     .video-stats{
-        font-family: arial;
         font-size:14px;
         color: rgb(96,96,96);
         margin-bottom:15px;
@@ -24,7 +21,6 @@
     .video-author{
         font-size:15px;
         color: rgb(96,96,96);
-        font-family: arial; 
     }
 
     .video-description{
@@ -53,28 +49,3 @@
     .shop-link:hover{
         text-decoration:underline;
     }
-</style>
-
-<p class='video-title'>
-    Talking Tech and AI with Google CEO Sundar Pichai!
-</p>
-
-<p class ='video-stats'>
-    3.6M views &#183; 6 month ago
-</p>
-
-<p class ="video-author">
-    Marques Brownlee &check;
-</p>
-
-<p class ="video-description">
-    Talking Tech and AI on heels of Google I/0. Also a daily driver phone reveal from Google's CEO. Shortout to Sundar!
-</p>
-
-<p class="apple-text">
-    shop early for the best selection of the holiday favourites. <span class = "Shop-link">Shop now &#62;</span> 
-</p>
-
-<p>
-    shop early for the<strong> best selection </strong> of the <u>holiday</u> favourites. <span class="span-example">Shop now</span> &#62;
-</p>
